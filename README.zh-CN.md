@@ -1,4 +1,4 @@
-English | [简体中文](README.zh-CN.md)
+[English](README.md) | 简体中文
 
 # GGEditor
 
@@ -6,23 +6,23 @@ English | [简体中文](README.zh-CN.md)
 [![npm version](https://img.shields.io/npm/v/gg-editor.svg)](https://www.npmjs.com/package/gg-editor)
 [![npm downloads](https://img.shields.io/npm/dm/gg-editor.svg)](https://www.npmjs.com/package/gg-editor)
 
-A visual graph editor based on [G6](https://github.com/antvis/g6) and [React](https://github.com/facebook/react).
+基于 [G6](https://github.com/antvis/g6) 和 [React](https://github.com/facebook/react) 的可视化图编辑器
 
-## Demo
+## 演示
 
-[Flow](http://ggeditor.com/demo/#/flow)
+[流程图](http://ggeditor.com/demo/#/flow)
 
 [![Flow](https://img.alicdn.com/tfs/TB1cl0LyAzoK1RjSZFlXXai4VXa-800-407.gif)](http://ggeditor.com/demo/#/flow)
 
-[Mind](http://ggeditor.com/demo/#/mind)
+[思维导图](http://ggeditor.com/demo/#/mind)
 
 [![Mind](https://img.alicdn.com/tfs/TB1Qed2yxjaK1RjSZFAXXbdLFXa-800-467.gif)](http://ggeditor.com/demo/#/mind)
 
-[Koni](http://ggeditor.com/demo/#/koni)
+[拓扑图](http://ggeditor.com/demo/#/koni)
 
 [<img src="https://img.alicdn.com/tfs/TB1vWxUyAvoK1RjSZFwXXciCFXa-1920-1003.png" alt="Koni" width="800">](http://ggeditor.com/demo/#/koni)
 
-## Installation
+## 安装
 
 ### npm
 
@@ -45,9 +45,9 @@ $ npm install
 $ npm start
 ```
 
-## Usage
+## 快速开始
 
-### Flow
+### 流程图
 
 ```jsx
 import GGEditor, { Flow } from 'gg-editor';
@@ -89,7 +89,7 @@ const data = {
 </GGEditor>
 ```
 
-### Mind
+### 思维导图
 
 ```jsx
 import GGEditor, { Mind } from 'gg-editor';
@@ -112,10 +112,10 @@ const data = {
 </GGEditor>
 ```
 
-## Documentation
+## 文档
 
-* [API](/docs/README.md#api)
+* [API](/docs/README.zh-CN.md#api)
 
-## DingTalk Group
+## 钉钉交流
 
-[<img src="https://img.alicdn.com/tfs/TB1AWhRywHqK1RjSZJnXXbNLpXa-1242-1602.jpg" alt="DingTalk Group" width="200">](https://qr.dingtalk.com/action/joingroup?code=v1,k1,PSFRQbatttuFXEJhDNG1P4CMMUI1+sUDO5MZr3gjhqk=&_dt_no_comment=1&origin=11)
+[<img src="https://img.alicdn.com/tfs/TB1AWhRywHqK1RjSZJnXXbNLpXa-1242-1602.jpg" alt="钉钉交流" width="200">](https://qr.dingtalk.com/action/joingroup?code=v1,k1,PSFRQbatttuFXEJhDNG1P4CMMUI1+sUDO5MZr3gjhqk=&_dt_no_comment=1&origin=11)
